@@ -20,6 +20,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="32dp" />
 
@@ -30,25 +31,29 @@
         android:layout_below="@+id/message"
         android:layout_alignLeft="@+id/message"
         android:layout_alignStart="@+id/message"
-        android:layout_marginTop="33dp" />
+        android:layout_marginTop="33dp"
+        android:layout_marginRight="24dp"/>
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Message"
         android:id="@+id/changemessage"
         android:layout_below="@+id/input"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="94dp" />
+        android:layout_marginTop="94dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginLeft="24dp"/>
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Toast"
         android:id="@+id/showtoast"
         android:layout_below="@+id/changemessage"
-        android:layout_toRightOf="@+id/changemessage"
+        android:layout_marginRight="24dp"
+        android:layout_marginLeft="24dp"
          />
 
 
